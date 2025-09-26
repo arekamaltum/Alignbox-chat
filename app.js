@@ -13,7 +13,7 @@ const httpServer = createServer(app);
 // Initialize Socket.IO with CORS
 const io = new Server(httpServer, {
     cors: {
-        origin: "https://alignbox-chat-xw44.vercel.app/", // 
+        origin: "https://alignbox-chat-6d59.vercel.app", // 
         methods: ["GET", "POST"]
     }
 });
