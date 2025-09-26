@@ -5,7 +5,7 @@ const incognitoBtn = document.querySelector('.incognito-btn');
 const attachmentInput = document.getElementById('attachment');
 const attachButton = document.querySelector('.attach-button');
 
-const socket = io();
+const socket = io("https://alignbox-chat-new.onrender.com/");
 let userName;
 let incognito = false;
 
